@@ -1,7 +1,7 @@
 gremlin:
   endpoint: localhost
-  port: 8182 //443
-  username: /dbs/your-db-name/colls/your-collection-name
-  password: your-password
+  port: 8182 #443
+  #username: admin # /dbs/your-db-name/colls/your-collection-name
+  #password: admin #your-password
   telemetryAllowed: true # set false to disable telemetry
   sslEnabled: false

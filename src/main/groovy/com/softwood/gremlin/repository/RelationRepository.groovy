@@ -1,11 +1,9 @@
 package com.softwood.gremlin.repository
 
-
 import com.microsoft.spring.data.gremlin.repository.GremlinRepository
-import com.softwood.gremlin.model.Person;
+import com.softwood.gremlin.model.Relation
 import org.springframework.stereotype.Repository
 
 @Repository
-public interface PersonRepository extends GremlinRepository<Person, String> {
-    List<Person> findByName(String name)
+public interface RelationRepository extends GremlinRepository<Relation, String> {
 }

@@ -1,6 +1,6 @@
 plugins {
     id 'org.springframework.boot' version '2.1.7.RELEASE'
-    id 'io.spring.dependency-management' version '1.0.7.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
     id 'groovy'
 }
 
@@ -28,6 +28,10 @@ dependencies {
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    compile group: 'com.microsoft.spring.data.gremlin', name: 'spring-data-gremlin', version: '2.1.2'
+    compile group: 'org.springframework', name: 'spring-core', version: '5.1.9.RELEASE'
+    compile group: 'com.microsoft.spring.data.gremlin', name: 'spring-data-gremlin', version: '2.1.7'
+    //compile group: 'org.apache.tinkerpop', name: 'gremlin-core', version: '3.4.3'
+    //compile group: 'org.apache.tinkerpop', name: 'gremlin-driver', version: '3.4.3'
+
 
 }
