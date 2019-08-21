@@ -15,7 +15,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import javax.annotation.PostConstruct
 
 @SpringBootApplication
-//@ComponentScan ("com.softwood.gremlin")
 class GremlinApplication implements CommandLineRunner {
 
     @Autowired
